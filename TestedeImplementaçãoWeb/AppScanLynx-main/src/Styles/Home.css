@@ -1,0 +1,167 @@
+:root {
+    background-color: #b6b5b5;
+    --color-text: #fff;
+  }
+  
+  
+  text {
+    color: var(--color-text);
+  }
+  
+  .title{
+    text-align: center;
+  }
+  
+  .Logo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  
+  .Cabecalho {
+    height: 30px;
+    padding: 30px;
+    background-color: #ff6448; 
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px -4px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  .name-logo {
+    font-weight: bold;
+    color: var(--color-text);
+  }
+  
+  .icon-search {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .icon-barcode {
+    color: #fff;
+    width: 50px;
+    height: 50px;;
+  }
+  
+  .icon-pencil{
+    color: #000;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .fab {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 70px;
+    height: 70px;
+    background: #ff6448;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .filter-container{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    border-radius: 25%;
+    background: #ff6448;
+    right : 24px;
+    top: 70px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .filter{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .container {
+    position: relative;
+    padding: 15px;
+  }
+  
+  .container .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 15px 25px;
+    margin: 10px 0;
+    min-width: 280px;
+    max-width: 400px;
+    cursor: pointer;
+  }
+  
+  .card-container:hover {
+    background-color: #525252;
+  }
+  
+  .card-initial {
+    width: 50px;
+    height: 50px;
+    background: #ff6448;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 18px;
+    box-shadow: 0 2px 6px rgba(255,100,72,0.15);
+  }
+  
+  .initial {
+    color: #fff;
+    /*font-weight: bolder;*/
+    font-size: 20px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+  }
+  
+  .card-content text {
+    color: #222;
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+  
+  .card-content .name-product {
+    font-weight: bold;
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 4px;
+  }
+  
+  .card-content .code-product {
+    color: #525252;
+    font-size: 0.9rem;
+  }
