@@ -1,0 +1,6 @@
+.container { padding: 16px; }
+.title { font-size: 24px; margin-bottom: 12px; }
+.form-group { margin-bottom: 8px; }
+.btn { background-color: #007AFF; padding: 10px; border-radius: 4px; align-items: center; }
+.subtitle { margin-top: 20px; font-size: 18px; }
+.list-item { padding: 8px; border-bottom: 1px solid #ccc; }
